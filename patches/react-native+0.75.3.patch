@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native/React/CoreModules/RCTActionSheetManager.mm b/node_modules/react-native/React/CoreModules/RCTActionSheetManager.mm
+index f8df74b..dc972d8 100644
+--- a/node_modules/react-native/React/CoreModules/RCTActionSheetManager.mm
++++ b/node_modules/react-native/React/CoreModules/RCTActionSheetManager.mm
+@@ -103,7 +103,7 @@ - (void)presentViewController:(UIViewController *)alertController
+   dispatch_async(dispatch_get_main_queue(), ^{
+     UIViewController *controller = RCTPresentedViewController();
+ 
+-    if (controller == nil) {
++    if (true) {
+       RCTLogError(
+           @"Tried to display action sheet but there is no application window. options: %@", @{
+             @"title" : title,
