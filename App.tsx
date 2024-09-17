@@ -1,3 +1,6 @@
+/**
+ * Sample source: https://reactnative.dev/docs/actionsheetios#example
+ */
 import React, {useState} from 'react';
 import {ActionSheetIOS, Button, StyleSheet, Text, View} from 'react-native';
 
